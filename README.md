@@ -2,6 +2,13 @@
 
 Proyecto base para APIs REST con **arquitectura Vertical Slice por feature** (TypeScript, Bun, Hono, Sequelize, MySQL).
 
+## Desarrollo con Docker
+
+```bash
+docker compose up --build --watch
+docker compose exec api bun test
+```
+
 ## Estructura
 
 ```
